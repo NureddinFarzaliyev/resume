@@ -26,7 +26,7 @@ cv:
     education:
       - institution: Matrix Academy
         area: Frontend Development
-        degree: CE
+        degree: Certification
         date:
         start_date: 2024-10
         end_date: 2025-01
@@ -36,7 +36,7 @@ cv:
         #  - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
       - institution: UNEC
         area: Computer Engineering
-        degree: BS
+        degree: Bachelor's
         date:
         start_date: 2024-09
         end_date: 2028-06
@@ -46,7 +46,7 @@ cv:
         #  - 'GPA: 3.97/4.00, Valedictorian'
       - institution: Self-Study
         area: Software Development
-        degree: CE
+        degree: Certification
         date:
         start_date: 2018
         end_date:
@@ -307,7 +307,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-01-05'
+  current_date: '2026-01-07'
   render_command:
     design:
     locale:
