@@ -16,13 +16,13 @@ cv:
       - label: Languages
         details: Javascript, Typescript, Go, Python 
       - label: Frontend
-        details: HTML, CSS, Tailwindcss, Bootstrap, React, Redux, Zustand, Next, Vue, Pinia, Astro, Motion etc.
+        details: HTML, CSS, Tailwindcss, Bootstrap, React, Redux, Zustand, Next, Vue, Pinia, Vue Query, Astro, Motion etc.
       - label: Backend & DB
-        details: Node.js, Express, SQL, MongoDB
+        details: Node.js, Express, PostgreSQL, Drizzle ORM, MongoDB, tRPC
       - label: Other Tools
-        details: Git, Figma, Linux, Vite etc.
+        details: Docker, Git, Bun, Linux, Vite, Figma etc.
       - label: Software
-        details: Strong focus on conventional and scalable architectural design of a software
+        details: Strong focus on conventional and scalable architectural design of a software, monorepo project designs with end-to-end type safety.
     education:
       - institution: Matrix Academy
         area: Frontend Development
@@ -85,12 +85,18 @@ cv:
         highlights: 
           - Mentorship for Frontend & Backend Development students
     projects:
-      - name: 'Brendmoto Ecom Web API'
+      - name: 'Brendmoto E-Commerce Web API'
         date: 2025-09
         summary: REST API for e-commerce platform
         highlights:
           - "Backend: Node.js, MongoDB, Express, JWT Authentication"
-      #- name: '[FlashInfer](https://github.com/)'
+      - name: '[Fullstack E-Commerce](https://github.com/nureddinfarzaliyev/fullstack-ecommerce)'
+        date: 2026-01
+        summary: Fullstack e-commerce application with focus on integrity and type safety between frontend and backend by using tRPC and Monorepo architecture. 
+        highlights: 
+          - "Backend: tRPC, PostgreSQL, Drizzle ORM, Express, Node.js, Zod, JWT Authentication" 
+          - "Tools: Docker, Vite, Bun (for monorepo structure)"
+          - "Frontend: Vue.js, Tanstack Vue Query, Tailwindcss, Pinia"
       - name: 'Brendmoto ERP API'
         date: 2025-02
         summary: REST API for a complex business & warehouse management system
