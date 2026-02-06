@@ -16,7 +16,7 @@ cv:
       - label: Languages
         details: Javascript, Typescript, Go, Python 
       - label: Frontend
-        details: HTML, CSS, Tailwindcss, Bootstrap, React, Redux, Zustand, Next, Vue, Pinia, Vue Query, Astro, Motion etc.
+        details: HTML, CSS, Tailwindcss, Bootstrap, React, Next, Redux, Zustand, Vue, Pinia, Vue Query, Astro, Motion etc.
       - label: Backend & DB
         details: Node.js, Express, PostgreSQL, Drizzle ORM, MongoDB, tRPC
       - label: Other Tools
@@ -58,7 +58,8 @@ cv:
         position: Full-Stack Web Developer
         date:
         start_date: 2025-02
-        end_date: present
+        # end_date: present
+        end_date: 2025-12
         location: Baku, Azerbaijan
         summary:
         highlights:
@@ -70,7 +71,7 @@ cv:
         position: Frontend Developer
         date:
         start_date: 2025-03
-        end_date: #2022-08
+        end_date: 2025-10
         location: Remote
         summary:
         highlights:
