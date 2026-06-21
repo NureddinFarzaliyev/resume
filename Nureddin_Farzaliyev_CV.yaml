@@ -10,6 +10,8 @@ cv:
   social_networks:
     - network: GitHub
       username: nureddinfarzaliyev 
+    - network: LinkedIn
+      username: nureddinfarzaliyev
   custom_connections:
   sections:
     skills:
@@ -24,29 +26,29 @@ cv:
       - label: Software
         details: Strong focus on conventional and scalable architectural design of a software, monorepo project designs with end-to-end type safety.
     education:
-      - institution: Matrix Academy
-        area: Frontend Development
-        degree: Certification
-        date:
-        start_date: 2024-10
-        end_date: 2025-01
-        #location: Baku, Azerbaijan
-        summary:
-        #highlights:
-        #  - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
       - institution: UNEC
         area: Computer Engineering
         degree: Bachelor's
         date:
         start_date: 2024-09
         end_date: 2028-06
-        #location: Baku, Azerbaijan
+        location: Baku, Azerbaijan
         summary:
         #highlights:
         #  - 'GPA: 3.97/4.00, Valedictorian'
+      - institution: Matrix Academy
+        area: Frontend Development
+        degree: Certification
+        date:
+        start_date: 2024-10
+        end_date: 2025-01
+        location: Baku, Azerbaijan
+        summary:
+        #highlights:
+        #  - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
       - institution: Self-Study
         area: Software Development
-        degree: Certification
+        # degree:
         date:
         start_date: 2018
         end_date:
@@ -54,19 +56,14 @@ cv:
         highlights:
          - 'Constantly improving knowledge & skills in development'
     experience:
-      - company: Webluna Software
-        position: Full-Stack Web Developer
-        date:
-        start_date: 2025-02
-        # end_date: present
-        end_date: 2025-12
+      - company: Matrix Academy
+        position: Mentor
+        start_date: 2025-03
+        end_date: #2022-08
         location: Baku, Azerbaijan
-        summary:
-        highlights:
-          - Actively participated in architectural design of projects
-          - Participated in backend development of complex ERP systems for business management purposes
-          - Developed APIs for e-commerce applications
-          - Worked on both frontend and backends of form creation & management application
+        highlights: 
+          - Organising practical Frontend & Backend development classes
+          - Providing mentorship for students throughout the learning process
       - company: Exploit
         position: Frontend Developer
         date:
@@ -76,21 +73,25 @@ cv:
         summary:
         highlights:
           - Designed complex animations for web applications
-          - Participated in frontend development of a web application
-          - Built several landing pages for products
-      - company: Matrix Academy
-        position: Mentor
-        start_date: 2025-03
-        end_date: #2022-08
+          - Participated in frontend development of a web application and several landing pages
+      - company: Webluna Software
+        position: Full-Stack Web Developer
+        date:
+        start_date: 2025-02
+        # end_date: present
+        end_date: 2025-12
         location: Baku, Azerbaijan
-        highlights: 
-          - Mentorship for Frontend & Backend Development students
-    projects:
-      - name: 'Brendmoto E-Commerce Web API'
-        date: 2025-09
-        summary: REST API for e-commerce platform
+        summary:
         highlights:
-          - "Backend: Node.js, MongoDB, Express, JWT Authentication"
+          - Actively participated in architectural design of various projects
+          - Participated in full-stack development for complex ERP system, e-commerce website and form management software
+    projects:
+      - name: '[Lectura](https://lectura.az)'
+        date: 2026-05
+        summary: Complex class management application for teachers and enterprises
+        highlights: 
+          - "Frontend: React.js, Zustand, RadixUI, Tailwindcss"
+          - "Backend: Supabase, PostgreSQL"
       - name: '[Fullstack E-Commerce](https://github.com/nureddinfarzaliyev/fullstack-ecommerce)'
         date: 2026-01
         summary: Fullstack e-commerce application with focus on integrity and type safety between frontend and backend by using tRPC and Monorepo architecture. 
@@ -98,52 +99,22 @@ cv:
           - "Backend: tRPC, PostgreSQL, Drizzle ORM, Express, Node.js, Zod, JWT Authentication" 
           - "Tools: Docker, Vite, Bun (for monorepo structure)"
           - "Frontend: Vue.js, Tanstack Vue Query, Tailwindcss, Pinia"
+      - name: 'Brendmoto E-Commerce Web API'
+        date: 2025-09
+        summary: REST API for e-commerce platform
+        highlights:
+          - "Backend: Node.js, MongoDB, Express, JWT Authentication"
       - name: 'Brendmoto ERP API'
         date: 2025-02
         summary: REST API for a complex business & warehouse management system
         highlights:
           - "Backend: Node.js, MongoDB, Express, JWT Authentication"
-      - name: Lectura
-        date: 2025-08
-        summary: Complex class management application for teachers and enterprises
-        highlights: 
-          - "Frontend: React.js, Zustand, RadixUI, Tailwindcss"
-          - "Backend: Supabase, PostgreSQL"
       - name: '[Matrix Academy Forms](https://register.matrixacademy.edu.az)'
         date: 2025-02
         summary: Form generation & management platform for Matrix
         highlights:
           - "Frontend: React.js, Bootstrap"
           - "Backend: Node.js, MongoDB, Express"
-      - name: '[Spotify Client](https://github.com/nureddinfarzaliyev/vue-spotify-client)'
-        date: 2025-12
-        summary: Spotify Client made with Vue.js
-        highlights: 
-          - "Vue.js, Pinia"
-      - name: '[Criterion Clone](https://github.com/nureddinfarzaliyev/criterion-clone)'
-        date: 2025-01
-        summary: E-Commerce application inspired by Criterion
-        highlights: 
-          - "Frontend: React.js, Redux Toolkit, Tailwindcss, Framer Motion"
-          - "Backend: Supabase, PostgreSQL"
-      - name: '[NoteApp](https://github.com/nureddinfarzaliyev/noteapp-advanced)'
-        date: 2024-09
-        summary: Web application that lets you create and navigate through notes & folders 
-        highlights: 
-          - "Frontend: Typescript, React.js, Tailwindcss"
-          - "Backend: Node.js, Express, MongoDB"
-      - name: '[Cinexplore AI](https://github.com/nureddinfarzaliyev/cinexplore-ai)'
-        date: 2024-08
-        summary: An application which you can register to track your movies and series & get recommendations with AI.
-        highlights: 
-          - "Frontend: React.js, Tailwindcss"
-          - "Backend: Node.js, Express, MongoDB"
-      - name: '[TechQuiz](https://github.com/nureddinfarzaliyev/techquiz)'
-        date: 2024-07
-        summary: Web app which you can register and solve quizes to earn points.
-        highlights: 
-          - "Frontend: React.js, Tailwindcss"
-          - "Backend: Node.js, Express, MongoDB"
       - name: '[and More](https://github.com/nureddinfarzaliyev/)'
         start_date: 2018
         end_date: 
@@ -314,7 +285,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-01-13'
+  current_date: '2026-06-21'
   render_command:
     design:
     locale:
