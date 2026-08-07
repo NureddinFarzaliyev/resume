@@ -16,13 +16,13 @@ cv:
   sections:
     skills:
       - label: Languages
-        details: Javascript, Typescript, Go, Python 
+        details: Javascript, Typescript, Java, Go, Python 
       - label: Frontend
         details: HTML, CSS, Tailwindcss, Bootstrap, React, Next, Redux, Zustand, Vue, Pinia, Vue Query, Astro, Motion etc.
       - label: Backend & DB
-        details: Node.js, Express, PostgreSQL, Drizzle ORM, MongoDB, tRPC
+        details: Java Spring Boot, Node.js Express, PostgreSQL, MongoDB, RPCs, ORMs
       - label: Other Tools
-        details: Docker, Git, Bun, Linux, Vite, Figma etc.
+        details: Docker, Git, Bun, Linux, Vite, Figma, Swagger etc.
       - label: Software
         details: Strong focus on conventional and scalable architectural design of a software, monorepo project designs with end-to-end type safety.
     education:
@@ -36,6 +36,7 @@ cv:
         summary:
         #highlights:
         #  - 'GPA: 3.97/4.00, Valedictorian'
+    certifications:
       - institution: Matrix Academy
         area: Frontend Development
         degree: Certification
@@ -47,7 +48,7 @@ cv:
         #highlights:
         #  - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
       - institution: Self-Study
-        area: Software Development
+        area: Software Engineering
         # degree:
         date:
         start_date: 2018
@@ -86,9 +87,15 @@ cv:
           - Actively participated in architectural design of various projects
           - Participated in full-stack development for complex ERP system, e-commerce website and form management software
     projects:
+      - name: '[Java Transactions API](https://github.com/nureddinfarzaliyev/java-transactions-api)'
+        date: 2026-08
+        summary: Transaction manager REST API with Java & Spring Boot 
+        highlights: 
+          - "PostgreSQL database, JWT User Auth with Spring Security, Dockerized"
+          - "Followed good practices and design patterns"
       - name: '[Lectura](https://lectura.az)'
         date: 2026-05
-        summary: Complex class management application for teachers and enterprises
+        summary: Multi-tenant multi-functional class management application for teachers and enterprises that supports permission manager, finance tracker, sharable pages etc. 
         highlights: 
           - "Frontend: React.js, Zustand, RadixUI, Tailwindcss"
           - "Backend: Supabase, PostgreSQL"
@@ -285,7 +292,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-06-21'
+  current_date: '2026-08-07'
   render_command:
     design:
     locale:
