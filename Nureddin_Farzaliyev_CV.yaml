@@ -47,15 +47,6 @@ cv:
         summary:
         #highlights:
         #  - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
-      - institution: Self-Study
-        area: Software Engineering
-        # degree:
-        date:
-        start_date: 2018
-        end_date:
-        summary:
-        highlights:
-         - 'Constantly improving knowledge & skills in development'
     experience:
       - company: Matrix Academy
         position: Mentor
@@ -86,13 +77,22 @@ cv:
         highlights:
           - Actively participated in architectural design of various projects
           - Participated in full-stack development for complex ERP system, e-commerce website and form management software
+    languages:
+      - name: ""
+        summary:
+        highlights:
+          - "Azerbaijani -- Native"
+          - "English -- C1"
+          - "Turkish -- Bilingual"
     projects:
-      - name: '[Java Transactions API](https://github.com/nureddinfarzaliyev/java-transactions-api)'
-        date: 2026-08
-        summary: Transaction manager REST API with Java & Spring Boot 
+      - name: '[Fullstack Trello Clone](https://github.com/NureddinFarzaliyev/fullstack-trello-clone)'
+        date: 2026-09
+        summary: Real-time collaborative task board with invitation system (Trello Clone) 
         highlights: 
-          - "PostgreSQL database, JWT User Auth with Spring Security, Dockerized"
-          - "Followed good practices and design patterns"
+          - "Backend & DB: Java Spring Boot, PostgreSQL, Cookie based stateless JWT Auth & CSRF Protection."
+          - "WebSockets: Real-time invitation based collaboration with authorized WebSocket connections."
+          - "Frontend: React, Zustand, TailwindCSS. OpenAPI-Typescript is used to ensure integrity."
+          - "Tools: Docker, Swagger, Maven, Bun"
       - name: '[Lectura](https://lectura.az)'
         date: 2026-05
         summary: Multi-tenant multi-functional class management application for teachers and enterprises that supports permission manager, finance tracker, sharable pages etc. 
@@ -122,7 +122,7 @@ cv:
         highlights:
           - "Frontend: React.js, Bootstrap"
           - "Backend: Node.js, MongoDB, Express"
-      - name: '[and More](https://github.com/nureddinfarzaliyev/)'
+      - name: '[and much more](https://github.com/nureddinfarzaliyev/)'
         start_date: 2018
         end_date: 
         summary: "Check out all of my projects on my [GitHub Profile](https://github.com/nureddinfarzaliyev) or on my [Portfolio](https://farzaliyev.netlify.app)" 
