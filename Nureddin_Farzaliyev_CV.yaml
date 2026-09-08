@@ -39,7 +39,7 @@ cv:
     certifications:
       - institution: Matrix Academy
         area: Frontend Development
-        degree: Certification
+        degree: '[Certification](https://raw.githubusercontent.com/NureddinFarzaliyev/resume/master/certificates/MatrixAcademyFrontend.pdf)'
         date:
         start_date: 2024-10
         end_date: 2025-01
@@ -82,7 +82,7 @@ cv:
         summary:
         highlights:
           - "Azerbaijani -- Native"
-          - "English -- C1"
+          - "English -- C1 ([APTIS](https://raw.githubusercontent.com/NureddinFarzaliyev/resume/master/certificates/Aptis~0918397.pdf))"
           - "Turkish -- Bilingual"
     projects:
       - name: '[Fullstack Trello Clone](https://github.com/NureddinFarzaliyev/fullstack-trello-clone)'
