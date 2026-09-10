@@ -20,9 +20,9 @@ cv:
       - label: Frontend
         details: HTML, CSS, Tailwindcss, Bootstrap, React, Next, Redux, Zustand, Vue, Pinia, Vue Query, Astro, Motion etc.
       - label: Backend & DB
-        details: Java Spring Boot, Node.js Express, PostgreSQL, MongoDB, RPCs, ORMs
+        details: Java Spring Boot, Node.js Express, PostgreSQL, MongoDB, RPCs, ORMs, WebSocket
       - label: Other Tools
-        details: Docker, Git, Bun, Linux, Vite, Figma, Swagger etc.
+        details: Docker, Git, Bun, Linux, Vite, Figma, Swagger, Maven etc.
       - label: Software
         details: Strong focus on conventional and scalable architectural design of a software, monorepo project designs with end-to-end type safety.
     education:
